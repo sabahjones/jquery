@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hover exercise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <script>
+      $(document).ready(function(){
+        $("img").hover(function(){
+          $(this).attr("src", $(this).attr("img2"))
+        }, function(){
+          $(this).attr("src", $(this).attr("orig"))
+        })
+
+      })
+    </script>
+    <link rel="stylesheet" type="text/css" href="hover.css">
+
+</head>
+  <body>
+    <div id="page">
+      <img src="https://images.thenorthface.com/is/image/TheNorthFace/NF0A2TAG_JK3_hero?$638x745$" orig="https://images.thenorthface.com/is/image/TheNorthFace/NF0A2TAG_JK3_hero?$638x745$" alt="logo.png" img2="http://nord.imgix.net/Zoom/12/_13057692.jpg">
+      <img src="http://nord.imgix.net/Zoom/12/_13057692.jpg" orig="http://nord.imgix.net/Zoom/12/_13057692.jpg" alt="jacket2.jpg" img2="https://images.thenorthface.com/is/image/TheNorthFace/NF0A2TAG_JK3_hero?$638x745$">
+    </div>
+  </body>
+</html>

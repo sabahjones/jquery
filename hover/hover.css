@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#page {
+  padding: 30px;
+  background:
+    repeating-linear-gradient(
+        -55deg,
+        black,
+        black 4px,
+        rgb(27,27,27) 4px,
+        rgb(27,27,27) 5px)
+}
+
+#page img{
+    vertical-align: top;
+    width: 200px;
+    padding: 10px;
+}

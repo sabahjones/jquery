@@ -1,0 +1,31 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#container {
+  height: 430px;
+  width: 890px;
+  background-color: silver;
+}
+
+#container img{
+  width: 200px;
+  display: inline-block;
+}
+
+.square {
+  height: 210px;
+  width: 210px;
+  display: inline-block;
+  padding: 1px;
+}
+
+button {
+  width: 200px;
+  height: 75px;
+  background-color: blue;
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+}

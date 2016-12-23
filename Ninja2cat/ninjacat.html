@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja 2 cat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="ninjacat.css">
+  </head>
+  <body>
+      <script>
+          $(document).ready(function(){
+            $("img").click(function(){
+                var temp = $(this).attr("src")
+                $(this).attr("src", $(this).attr("img2"))
+                $(this).attr("img2", temp)
+            })
+          })
+      </script>
+
+      <div id="container">
+
+          <img src="ninja0.png" alt="ninja_head" img2="cat0.png">
+          <img src="ninja1.png" alt="ninja_face" img2="/Users/Sirius/Desktop/WF_dec/Jquery/Ninja2cat/cat1.png">
+          <img src="ninja2.png" alt="ninja_body" img2="/Users/Sirius/Desktop/WF_dec/Jquery/Ninja2cat/cat2.png">
+          <img src="ninja3.png" alt="ninja_bottom" img2="cat3.png">
+          <img src="ninja4.png" alt="ninja_feet" img2="cat4.png">
+
+      </div>
+
+  </body>
+</html>
