@@ -9,15 +9,21 @@
     <script>
       $(document).ready(function(){
 
-        $("img").hover(function(){
-          var temp = $(this).attr("src")
-          $(this).attr("src", $(this).attr("img2"))
-          $(this).attr("img2", temp)
-        },
-        function(){
-          var temp = $(this).attr("src")
-          $(this).attr("src", $(this).attr("img2"))
-          $(this).attr("img2", temp)
+          $("img").click(function(){
+
+
+          })
+        $("img").hover(
+          function()
+          {
+            var temp = $(this).attr("src")
+            $(this).attr("src", $(this).attr("img2"))
+            $(this).attr("img2", temp)
+          },
+          function(){
+            var temp = $(this).attr("src")
+            $(this).attr("src", $(this).attr("img2"))
+            $(this).attr("img2", temp)
           }
         )
 
